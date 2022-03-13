@@ -20,7 +20,7 @@
             <div class="mt-8">
                 <div>
                     <img class="w-8 h-8 inline-block" src="~/assets/img/social-medias/linkedin.png" />
-                    <a href="https://www.linkedin.com/in/romariosarmiento/" class="inline-block ml-4">Jaime Romario Sarmiento</a>
+                    <a href="https://www.linkedin.com/in/romariosarmiento/" class="inline-block ml-4 font-light">Jaime Romario Sarmiento</a>
                 </div>
             </div>
         </div>
