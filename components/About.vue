@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { MinusSmIcon } from "@heroicons/vue/outline";
+import { MinusSmIcon } from "@heroicons/vue/outline/index.js";
 
 const technologies = [
     "JavaScript",

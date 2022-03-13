@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { HomeIcon, UserIcon, FolderIcon, PhoneIcon } from "@heroicons/vue/outline";
+import { HomeIcon, UserIcon, FolderIcon, PhoneIcon } from "@heroicons/vue/outline/index.js";
 
 export default {
     props: {

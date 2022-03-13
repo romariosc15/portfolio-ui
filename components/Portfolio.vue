@@ -29,7 +29,7 @@
                             <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
                         </a>
                         <a href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                            <SvgPostman :class="'fill-black'" />
+                            <SvgPostman :classes="'fill-black'" />
                         </a>
                     </div>
                 </div>
