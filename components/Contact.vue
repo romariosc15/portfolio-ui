@@ -6,7 +6,7 @@
             <div class="grid grid-cols-3 gap-4 mt-8">
                 <div class="bg-gray-50 p-4 rounded-md">
                     <h5 class="text-xl font-medium">Teléfono</h5>
-                    <p class="font-light text-md">+51 955 322 654</p>
+                    <p class="font-light text-md">+51 955 323 654</p>
                 </div>
                 <div class="bg-gray-50 p-4 rounded-md">
                     <h5 class="text-xl font-medium">Correo</h5>
