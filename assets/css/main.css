@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 /*Global styles*/
+body{
+    overflow-y: hidden;
+}
 .stroke-1 path{
     stroke-width: 1;
 }
-body{
-    overflow-y: hidden;
+.my-shadow{
+    box-shadow: 3px 0px 5px #f5f5f5;
 }

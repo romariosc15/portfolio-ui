@@ -1,0 +1,1 @@
+export const usePath = () => useState<string>('path', () => '#home');

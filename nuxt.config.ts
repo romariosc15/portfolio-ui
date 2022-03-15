@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt3'
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
     head: {
-        title: process.env.npm_package_name || '',
+        title: 'Romario Sarmiento - Sitio web personal',
         meta: [
           { charset: 'utf-8' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,8 +18,8 @@ export default defineNuxtConfig({
     ],
     postcss: {
         plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
+            tailwindcss: {},
+            autoprefixer: {},
         },
     },
     css: [
