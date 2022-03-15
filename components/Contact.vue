@@ -17,10 +17,15 @@
                     <p class="font-light text-md">Ilo, Perú</p>
                 </div>
             </div>
-            <div class="mt-8">
+            <p class="mt-8 text-xl font-light text-justify text-gray-500">Encuéntranos también por redes sociales.</p>
+            <div class="mt-8 space-y-6">
                 <div>
                     <img class="w-8 h-8 inline-block" src="~/assets/img/social-medias/linkedin.png" />
-                    <a href="https://www.linkedin.com/in/romariosarmiento/" class="inline-block ml-4 font-light">Jaime Romario Sarmiento</a>
+                    <a href="https://www.linkedin.com/in/romariosarmiento/" class="inline-block ml-4 font-light hover:underline">Jaime Romario Sarmiento</a>
+                </div>
+                <div>
+                    <img class="w-8 h-8 inline-block" src="~/assets/img/social-medias/whatsapp.png" />
+                    <a href="https://wa.me/+51999888999" class="inline-block ml-4 font-light hover:underline">+51 999 888 999</a>
                 </div>
             </div>
         </div>
@@ -29,21 +34,3 @@
         </div>
     </div>
 </template>
-
-<script>
-
-export default {
-    props: {
-    },
-    data: function () {
-        return {
-            
-        }
-    },
-    components: {
-    },
-    methods: {
-        
-    }
-}
-</script>

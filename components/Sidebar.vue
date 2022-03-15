@@ -33,9 +33,9 @@ import { HomeIcon, UserIcon, FolderIcon, PhoneIcon } from "@heroicons/vue/outlin
 
 export default {
     setup() {
-        const path = usePath();
+        const currentPath = usePath();
         return {
-            path
+            currentPath
         }
     },
     components: {
@@ -46,11 +46,11 @@ export default {
     },
     methods: {
         getClasses(hash){
-            return this.path === hash ? 'bg-gray-100 ' : '';
+            return this.currentPath === hash ? 'bg-gray-100 ' : '';
         },
         scrollTo(id){
             this.currentHash = `#${id}`;
-            this.path = this.currentHash;
+            this.currentPath = this.currentHash;
             document.getElementById(id).scrollIntoView();
         }
     }

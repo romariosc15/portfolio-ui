@@ -3,7 +3,7 @@
         <div>
             <Sidebar />
         </div>
-        <div class="content col-span-6 scroll-smooth overflow-y-auto h-screen">
+        <div id="content" class="content col-span-6 scroll-smooth overflow-y-auto h-screen" v-on:scroll="handleScroll()">
             <Home />
             <About />
             <Portfolio />
@@ -14,6 +14,32 @@
 </template>
 <script>
   export default {
+    setup() {
+        const currentPath = usePath();
+        return {
+            currentPath
+        }
+    },
+    beforeMount () {
+        document.getElementById('content').addEventListener('scroll', this.handleScroll);
+    },
+    beforeDestroy() {
+        document.getElementById('content').removeEventListener('scroll', this.handleScroll);
+    },
+    methods: {
+        handleScroll(){
+            var scrollTop = document.getElementById('content').scrollTop;
+            if (scrollTop < 969){
+                this.currentPath = '#home';
+            }else if(scrollTop < 1938){
+                this.currentPath = '#about';
+            }else if(scrollTop < 2907){
+                this.currentPath = '#portfolio';
+            }else if(scrollTop === 2907){
+                this.currentPath = '#contact';
+            }
+        }
+    },
     head() {
       return {
         title: "Romario Sarmiento",
