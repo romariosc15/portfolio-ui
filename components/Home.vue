@@ -5,14 +5,14 @@
         <p class="mt-6 text-lg text-gray-500">Desarrollador web con más de 3 años de experiencia trabajando con equipos angloparlantes.</p>
         <p class="text-lg text-gray-500">Con capacidad para desarrollar software mantenible, funcional, seguro y documentado. </p>
         <div class="mt-8 space-x-8">
-            <a class="inline-block" href="https://github.com/romariosc15">
+            <a target="_blank" class="inline-block" href="https://github.com/romariosc15">
                 <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
             </a>
-            <a class="inline-block" href="https://www.linkedin.com/in/romariosarmiento/">
+            <a target="_blank" class="inline-block" href="https://www.linkedin.com/in/romariosarmiento/">
                 <img class="w-8 h-8" src="~/assets/img/social-medias/linkedin.png" />
             </a>
-            <a class="inline-block" href="">
-                <img class="w-8 h-8" src="~/assets/img/social-medias/instagram.png" />
+            <a target="_blank" class="inline-block" href="https://www.romariosarmiento.com/cv.pdf">
+                <img class="w-8 h-8" src="~/assets/img/cv.png" />
             </a>
         </div>
     </div>

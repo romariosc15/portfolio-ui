@@ -21,11 +21,11 @@
             <div class="mt-8 space-y-6">
                 <div>
                     <img class="w-8 h-8 inline-block" src="~/assets/img/social-medias/linkedin.png" />
-                    <a href="https://www.linkedin.com/in/romariosarmiento/" class="inline-block ml-4 font-light hover:underline">Jaime Romario Sarmiento</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/romariosarmiento/" class="inline-block ml-4 font-light hover:underline">Jaime Romario Sarmiento</a>
                 </div>
                 <div>
                     <img class="w-8 h-8 inline-block" src="~/assets/img/social-medias/whatsapp.png" />
-                    <a href="https://wa.me/+51999888999" class="inline-block ml-4 font-light hover:underline">+51 999 888 999</a>
+                    <a target="_blank" href="https://wa.me/+51999888999" class="inline-block ml-4 font-light hover:underline">+51 999 888 999</a>
                 </div>
             </div>
         </div>

@@ -29,13 +29,13 @@
     methods: {
         handleScroll(){
             var scrollTop = document.getElementById('content').scrollTop;
-            if (scrollTop < 969){
+            if (scrollTop < 969 - 200){
                 this.currentPath = '#home';
-            }else if(scrollTop < 1938){
+            }else if(scrollTop < 1938 - 200){
                 this.currentPath = '#about';
-            }else if(scrollTop < 2907){
+            }else if(scrollTop < 2907 - 200){
                 this.currentPath = '#portfolio';
-            }else if(scrollTop === 2907){
+            }else if(scrollTop >= 2907 - 200){
                 this.currentPath = '#contact';
             }
         }

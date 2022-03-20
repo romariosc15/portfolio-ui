@@ -9,10 +9,10 @@
                     <p class="mt-4 font-medium text-xl">Tienda virtual</p>
                     <p class="font-light text-lg text-gray-600">Desarrollado con React y Redux.</p>
                     <div class="mt-2 space-x-4">
-                        <a href="https://store.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
+                        <a target="_blank" href="https://store.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
                             <img class="w-8 h-8" src="~/assets/img/web.png" />
                         </a>
-                        <a href="https://github.com/romariosc15/store" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
+                        <a target="_blank" href="https://github.com/romariosc15/store-ui" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
                             <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
                         </a>
                     </div>
@@ -22,13 +22,13 @@
                     <p class="mt-4 font-medium text-xl">API REST</p>
                     <p class="font-light text-lg text-gray-600">Desarrollada con Node.js y Express.</p>
                     <div class="mt-2 space-x-4">
-                        <a href="https://store.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
+                        <a target="_blank" href="https://store-api.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
                             <img class="w-8 h-8" src="~/assets/img/web.png" />
                         </a>
-                        <a href="https://github.com/romariosc15/store" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
+                        <a target="_blank" href="https://github.com/romariosc15/store-api" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
                             <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
                         </a>
-                        <a href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
+                        <a target="_blank" href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
                             <SvgPostman :classes="'fill-black'" />
                         </a>
                     </div>
