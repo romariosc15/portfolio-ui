@@ -1,9 +1,9 @@
 <template>
     <div id="portfolio" class="h-screen bg-gray-50">
-        <div class="md:mx-12 lg:mr-0 lg:mx-12 2xl:mx-20 lg:pt-8 22xl:pt-24 col-span-5">
+        <div class="md:mx-12 lg:mr-0 lg:mx-12 2xl:mx-20 pt-12 2xl:pt-24 col-span-5">
             <h1 class="md:text-5xl lg:text-6xl 2xl:text-7xl font-extrabold">Portafolio</h1>
             <p class="mt-6 2xl:mt-8 md:text-lg lg:text-lg 2xl:text-xl font-light text-justify text-gray-500">En esta sección podrás encontrar los proyectos que he desarrollado para demostrar mis habilidades como desarrollador web.</p>
-            <div class="mt-8 2xl:mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="mt-8 2xl:mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div>
                     <img class="w-full h-fit-content rounded-md" src="~/assets/img/portfolio/project-1.jpg" />
                     <p class="mt-4 font-medium md:text-lg lg:text-lg 2xl:text-xl">Tienda virtual</p>

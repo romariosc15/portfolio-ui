@@ -1,8 +1,8 @@
 <template>
     <div id="contact" class="h-screen md:grid md:grid-cols-5 lg:grid-cols-10 2xl:grid-cols-7 lg:gap-2 2xl:gap-4">
-        <div class="md:mx-12 lg:mr-0 lg:ml-12 2xl:ml-20 pt-10 2xl:pt-24 md:col-span-3 lg:col-span-7 2xl:col-span-4">
+        <div class="md:mx-12 lg:mr-0 lg:ml-12 2xl:ml-20 pt-12 2xl:pt-24 md:col-span-3 lg:col-span-7 2xl:col-span-4">
             <h1 class="md:text-5xl lg:text-6xl 2xl:text-7xl font-extrabold">Contacto</h1>
-            <p class="mt-6 2xl:mt-10 md:text-lg lg:text-lg 2xl:text-xl font-light text-justify text-gray-500">¿Tienes en mente algún proyecto? No dudes en ponerte en contacto conmigo.</p>
+            <p class="mt-6 2xl:mt-8 md:text-lg lg:text-lg 2xl:text-xl font-light text-justify text-gray-500">¿Tienes en mente algún proyecto? No dudes en ponerte en contacto conmigo.</p>
             <div class="mt-6 2xl:mt-8 grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
                 <div class="md:w-8/12 lg:w-full bg-gray-50 p-4 rounded-md">
                     <h5 class="md:text-md lg:text-lg 2xl:text-xl font-medium">Teléfono</h5>
