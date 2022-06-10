@@ -1,7 +1,7 @@
 <template>
-    <div id="about" class="h-screen lg:grid lg:grid-cols-10 2xl:grid-cols-7 lg:gap-2 2xl:gap-4">
-        <div class="md:mx-12 lg:mr-0 lg:ml-12 2xl:ml-20 pt-12 2xl:pt-24 lg:col-span-7 2xl:col-span-5">
-            <h1 class="md:text-5xl lg:text-6xl 2xl:text-7xl font-extrabold">Sobre mi</h1>
+    <div id="about" class="h-screen xl:grid xl:grid-cols-10 2xl:grid-cols-7 xl:gap-2 2xl:gap-4">
+        <div class="md:mx-12 xl:mr-0 xl:ml-12 2xl:ml-20 pt-12 2xl:pt-24 xl:col-span-7 2xl:col-span-5">
+            <h1 class="md:text-5xl xl:text-6xl 2xl:text-7xl font-extrabold">Sobre mi</h1>
             <p class="mt-6 2xl:mt-8 md:text-lg lg:text-lg 2xl:text-2xl font-light text-gray-700">Hola, soy <span class="font-medium">Romario Sarmiento</span></p>
             <p class="mt-4 2xl:mt-4 md:text-md lg:text-md 2xl:text-xl font-light text-justify text-gray-500">Bachiller en Ingeniería de Sistemas e Informática de la Universidad Nacional de Moquegua, con experiencia trabajando con equipos de varias partes del mundo.</p>
             <p class="mt-2 2xl:mt-4 md:text-md lg:text-md 2xl:text-xl font-light text-justify text-gray-500">Poseo conocimiento en trabajo colaborativo con sistemas de control de versiones, suficiencia para transformar maquetas brindadas por el equipo de diseño a código interpretable por el navegador y con la capacidad de realizar pruebas unitarias al código desarrollado.</p>
@@ -18,7 +18,7 @@
                 </ul>
             </div>
         </div>
-        <div class="hidden lg:block lg:col-span-3 2xl:col-span-2 flex items-center justify-center lg:px-8 2xl:px-12 my-auto">
+        <div class="hidden xl:block xl:col-span-3 2xl:col-span-2 flex items-center justify-center pl-6 pr-8 2xl:px-12 my-auto">
             <img class="w-full h-fit-content rounded-md" src="~/assets/img/about/main.jpg" />
         </div>
     </div>
@@ -28,7 +28,7 @@
 import { MinusSmIcon } from "@heroicons/vue/outline/index.js";
 
 const technologies = [
-    "JavaScript y TypeScript",
+    "JS y TS",
     "Vue",
     "Nuxt.js",
     "Jest",
@@ -43,11 +43,10 @@ const technologies = [
 ];
 
 const skills = [
-    "Marco de trabajo de Scrum",
-    "Azure DevOps",
+    "Scrum",
+    "Azure TFS",
     "Inglés intermedio",
     "Responsive design",
-    "Autodidacta"
 ];
 
 export default {

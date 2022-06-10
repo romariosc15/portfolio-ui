@@ -33,13 +33,13 @@
         handleScroll(){
             let scrollTop = document.getElementById('content').scrollTop;
             let h = window.innerHeight;
-            if (scrollTop < h - 200){
+            if (scrollTop < h - 300){
                 this.currentPath = '#home';
-            }else if(scrollTop < (h*2) - 200){
+            }else if(scrollTop < (h*2) - 300){
                 this.currentPath = '#about';
-            }else if(scrollTop < (h*3) - 200){
+            }else if(scrollTop < (h*3) - 300){
                 this.currentPath = '#portfolio';
-            }else if(scrollTop >= (h*3) - 200){
+            }else if(scrollTop >= (h*3) - 300){
                 this.currentPath = '#contact';
             }
         }
