@@ -31,14 +31,15 @@
     },
     methods: {
         handleScroll(){
-            var scrollTop = document.getElementById('content').scrollTop;
-            if (scrollTop < 969 - 200){
+            let scrollTop = document.getElementById('content').scrollTop;
+            let h = window.innerHeight;
+            if (scrollTop < h - 200){
                 this.currentPath = '#home';
-            }else if(scrollTop < 1938 - 200){
+            }else if(scrollTop < (h*2) - 200){
                 this.currentPath = '#about';
-            }else if(scrollTop < 2907 - 200){
+            }else if(scrollTop < (h*3) - 200){
                 this.currentPath = '#portfolio';
-            }else if(scrollTop >= 2907 - 200){
+            }else if(scrollTop >= (h*3) - 200){
                 this.currentPath = '#contact';
             }
         }
