@@ -30,7 +30,6 @@
 <script>
 import { HomeIcon, UserIcon, FolderIcon, PhoneIcon } from "@heroicons/vue/outline/index.js";
 
-
 export default {
     setup() {
         const currentPath = usePath();

@@ -1,9 +1,12 @@
 <template>
-    <div class="grid grid-cols-7">
-        <div>
+    <div class="lg:grid lg:grid-cols-10 xl:grid-cols-6">
+        <div class="hidden lg:block lg:col-span-2 xl:col-span-1">
             <Sidebar />
         </div>
-        <div id="content" class="content col-span-6 scroll-smooth overflow-y-auto h-screen" v-on:scroll="handleScroll()">
+        <div id="content" class="content scroll-smooth overflow-y-auto h-screen lg:col-span-8 xl:col-span-5" v-on:scroll="handleScroll()">
+            <div class="block lg:hidden">
+                <Navbar />
+            </div>
             <Home />
             <About />
             <Portfolio />
