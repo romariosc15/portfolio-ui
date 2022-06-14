@@ -32,14 +32,19 @@
     methods: {
         handleScroll(){
             let scrollTop = document.getElementById('content').scrollTop;
-            let h = window.innerHeight;
-            if (scrollTop < h - (h/2)){
+            let homeHeight = document.getElementById('home').offsetHeight;
+            let aboutHeight = document.getElementById('about').offsetHeight;
+            let portfolioHeight = document.getElementById('portfolio').offsetHeight;
+            let contactHeight = document.getElementById('contact').offsetHeight;
+            //console.log(scrollTop, (homeHeight/2), (homeHeight + aboutHeight/2), (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4));
+            //let h = window.innerHeight;
+            if (scrollTop < (homeHeight/2)){
                 this.currentPath = '#home';
-            }else if(scrollTop < (h*2) - (h/2)){
+            }else if(scrollTop < (homeHeight + aboutHeight/2)){
                 this.currentPath = '#about';
-            }else if(scrollTop < (h*3) - (h/2)){
+            }else if(scrollTop < (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4)){
                 this.currentPath = '#portfolio';
-            }else if(scrollTop >= (h*3) - (h/2)){
+            }else if(scrollTop >= (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4)){
                 this.currentPath = '#contact';
             }
         }
