@@ -30,7 +30,7 @@ const experience = [
     },
     {
         company: 'Oktana',
-        image: 'oktana-logo-2.png',
+        image: 'oktana-logo.png',
         position: 'Software Engineer',
         period: 'Sep. 2020 - Oct. 2021',
         description: 'Trabajé en el desarrollo de la aplicación: <a class="underline" href="https://lowtidebeta.herokuapp.com/" target="_blank" rel="noopener noreferrer">Lowtide</a>, tanto de su interfaz de usuario (desarrollada en Vue.js, Nuxt y Tailwind CSS), como de su API REST (construida con Node.js y Express). <br> Control de versiones de código con Git y GitHub. Equipo de trabajo multicultural.'
