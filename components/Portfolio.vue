@@ -111,7 +111,7 @@
 
 <script>
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y } from 'swiper';
+import { Pagination, A11y } from 'swiper';
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -133,12 +133,6 @@ export default {
         SwiperSlide,
     },
     setup() {
-        const onSwiper = (swiper) => {
-            console.log(swiper);
-        };
-        const onSlideChange = () => {
-            console.log('slide change');
-        };
         return {
             onSwiper,
             onSlideChange,
