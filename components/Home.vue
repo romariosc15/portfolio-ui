@@ -1,5 +1,5 @@
 <template>
-    <div id="home" class="flex items-center justify-center flex-col bg-gray-50 pt-8 md:pt-12 lg:pt-16 2xl:pt-24 pb-8 md:pb-12 lg:pb-16">
+    <div id="home" class="flex items-center justify-center flex-col bg-gray-50 pt-8 md:pt-12 lg:pt-16 2xl:pt-24 pb-8 md:pb-12 lg:pb-16 2xl:pb-24">
         <img class="w-44 h-44 md:w-64 md:h-64 2xl:w-72 2xl:h-72 rounded-full object-cover border-4 md:border-8 border-gray-300" src="~/assets/img/home/main.jpg" />
         <h1 class="mt-6 2xl:mt-8 text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl font-extrabold">Romario Sarmiento</h1>
         <p class="mt-4 md:mt-6 mx-5 text-center text-sm md:text-base lg:text-lg 2xl:text-xl text-gray-500">Desarrollador web con más de 3 años de experiencia trabajando con equipos angloparlantes.</p>

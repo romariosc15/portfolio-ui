@@ -1,6 +1,6 @@
 <template>
     <div id="about" class="xl:grid xl:grid-cols-10 2xl:grid-cols-7 xl:gap-2 2xl:gap-4">
-        <div class="mx-6 md:mx-12 xl:mr-0 xl:ml-12 2xl:ml-20 pt-12 2xl:pt-24 xl:col-span-7 2xl:col-span-5 pb-10">
+        <div class="mx-6 md:mx-12 xl:mr-0 xl:ml-12 2xl:ml-20 pt-12 2xl:pt-24 xl:col-span-7 2xl:col-span-5 pb-10 2xl:pb-24">
             <h1 class="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-extrabold">Sobre mi</h1>
             <p class="mt-6 2xl:mt-8 text-md md:text-lg lg:text-lg 2xl:text-xl font-light text-gray-500">Hola, soy <span class="font-medium text-gray-700">Romario Sarmiento</span></p>
             <p class="mt-3 md:mt-4 2xl:mt-4 text-sm lg:text-md 2xl:text-xl font-light text-justify text-gray-500">
