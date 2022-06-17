@@ -23,8 +23,6 @@
                             spaceBetween: 50,
                         },
                     }"
-                    @swiper="onSwiper"
-                    @slideChange="onSlideChange"
                 >
                     <swiper-slide>
                         <img class="h-fit-content rounded-md" src="~/assets/img/portfolio/project-1.jpg" />
@@ -111,7 +109,7 @@
 
 <script>
 // import Swiper core and required modules
-import { Pagination, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
@@ -121,26 +119,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 export default {
-    props: {
-    },
-    data: function () {
-        return {
-            
-        }
-    },
     components: {
         Swiper,
         SwiperSlide,
     },
     setup() {
         return {
-            onSwiper,
-            onSlideChange,
-            modules: [Pagination, A11y],
+            modules: [Pagination],
         };
-    },
-    methods: {
-        
     }
 }
 </script>
