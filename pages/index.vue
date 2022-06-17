@@ -9,57 +9,63 @@
             </div>
             <Home />
             <About />
-            <Portfolio />
+            <Portfolio :swiper_modules="modules" />
             <Contact />
         </div>
     </div>
     
 </template>
 <script>
-  export default {
-    setup() {
-        const currentPath = usePath();
-        return {
-            currentPath
-        }
-    },
-    beforeMount () {
-        document.getElementById('content').addEventListener('scroll', this.handleScroll);
-    },
-    beforeDestroy() {
-        document.getElementById('content').removeEventListener('scroll', this.handleScroll);
-    },
-    methods: {
-        handleScroll(){
-            let scrollTop = document.getElementById('content').scrollTop;
-            let homeHeight = document.getElementById('home').offsetHeight;
-            let aboutHeight = document.getElementById('about').offsetHeight;
-            let portfolioHeight = document.getElementById('portfolio').offsetHeight;
-            let contactHeight = document.getElementById('contact').offsetHeight;
-            //console.log(scrollTop, (homeHeight/2), (homeHeight + aboutHeight/2), (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4));
-            //let h = window.innerHeight;
-            if (scrollTop < (homeHeight/2)){
-                this.currentPath = '#home';
-            }else if(scrollTop < (homeHeight + aboutHeight/2)){
-                this.currentPath = '#about';
-            }else if(scrollTop < (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4)){
-                this.currentPath = '#portfolio';
-            }else if(scrollTop >= (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4)){
-                this.currentPath = '#contact';
+    // import Swiper core and required modules
+    import { Pagination } from 'swiper';
+    // Import Swiper styles
+    import 'swiper/css';
+    import 'swiper/css/pagination';
+    export default {
+        setup() {
+            const currentPath = usePath();
+            return {
+                currentPath,
+                modules: [Pagination],
+            }
+        },
+        beforeMount () {
+            document.getElementById('content').addEventListener('scroll', this.handleScroll);
+        },
+        beforeDestroy() {
+            document.getElementById('content').removeEventListener('scroll', this.handleScroll);
+        },
+        methods: {
+            handleScroll(){
+                let scrollTop = document.getElementById('content').scrollTop;
+                let homeHeight = document.getElementById('home').offsetHeight;
+                let aboutHeight = document.getElementById('about').offsetHeight;
+                let portfolioHeight = document.getElementById('portfolio').offsetHeight;
+                let contactHeight = document.getElementById('contact').offsetHeight;
+                //console.log(scrollTop, (homeHeight/2), (homeHeight + aboutHeight/2), (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4));
+                //let h = window.innerHeight;
+                if (scrollTop < (homeHeight/2)){
+                    this.currentPath = '#home';
+                }else if(scrollTop < (homeHeight + aboutHeight/2)){
+                    this.currentPath = '#about';
+                }else if(scrollTop < (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4)){
+                    this.currentPath = '#portfolio';
+                }else if(scrollTop >= (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4)){
+                    this.currentPath = '#contact';
+                }
+            }
+        },
+        head() {
+            return {
+                title: "Romario Sarmiento",
+                meta: [
+                    {
+                        hid: 'Inicio',
+                        name: 'Inicio',
+                        content: 'Sitio web personal destinado a mostrar parte de mi trabajo y mis habilidades como desarrollador web.'
+                    }
+                ]
             }
         }
-    },
-    head() {
-      return {
-        title: "Romario Sarmiento",
-        meta: [
-          {
-            hid: 'Inicio',
-            name: 'Inicio',
-            content: 'Sitio web personal destinado a mostrar parte de mi trabajo y mis habilidades como desarrollador web.'
-          }
-        ]
-      }
     }
-  }
 </script>

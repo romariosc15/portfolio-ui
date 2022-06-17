@@ -5,7 +5,7 @@
             <p class="mt-6 2xl:mt-8 text-md md:text-lg lg:text-lg 2xl:text-xl font-light text-justify text-gray-500">En esta sección podrás encontrar los proyectos que he desarrollado para demostrar mis habilidades como desarrollador web.</p>
             <div class="mt-6 2xl:mt-12">
                 <swiper
-                    :modules="modules"
+                    :modules="swiper_modules"
                     :slides-per-view="1"
                     :space-between="50"
                     :pagination="{ clickable: true }"
@@ -108,25 +108,16 @@
 </template>
 
 <script>
-// import Swiper core and required modules
-import { Pagination } from 'swiper';
-
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 export default {
     components: {
         Swiper,
         SwiperSlide,
     },
-    setup() {
-        return {
-            modules: [Pagination],
-        };
-    }
+    props: {
+        swiper_modules: Object
+    },
 }
 </script>
