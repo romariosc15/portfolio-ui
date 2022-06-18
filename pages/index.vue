@@ -1,9 +1,9 @@
 <template>
-    <div class="lg:grid lg:grid-cols-10 xl:grid-cols-6">
-        <div class="hidden lg:block lg:col-span-2 xl:col-span-1">
+    <div class="lg:grid lg:grid-cols-12 xl:grid-cols-9 2xl:grid-cols-6">
+        <div class="hidden lg:block lg:col-span-3 xl:col-span-2 2xl:col-span-1">
             <Sidebar />
         </div>
-        <div id="content" class="content scroll-smooth overflow-y-auto h-screen lg:col-span-8 xl:col-span-5" v-on:scroll="handleScroll()">
+        <div id="content" class="content scroll-smooth overflow-y-auto h-screen lg:col-span-9 xl:col-span-7 2xl:col-span-5" v-on:scroll="handleScroll()">
             <div class="block lg:hidden">
                 <Navbar />
             </div>
