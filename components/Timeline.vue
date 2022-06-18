@@ -19,12 +19,6 @@
 export default {
     props: {
         experience: Array
-    },
-    components: {
-        
-    },
-    methods: {
-        
     }
 }
 </script>

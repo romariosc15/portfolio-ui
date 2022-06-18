@@ -118,6 +118,6 @@ export default {
     },
     props: {
         swiper_modules: Object
-    },
+    }
 }
 </script>

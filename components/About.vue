@@ -2,7 +2,7 @@
     <div id="about" class="xl:grid xl:grid-cols-10 2xl:grid-cols-7 xl:gap-2 2xl:gap-4">
         <div class="mx-6 md:mx-12 xl:mr-0 xl:ml-12 2xl:ml-20 pt-12 2xl:pt-24 xl:col-span-7 2xl:col-span-5 pb-10 2xl:pb-24">
             <h1 class="text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-black">Sobre mi</h1>
-            <p class="mt-6 2xl:mt-8 text-sm md:text-base lg:text-lg 2xl:text-xl font-light text-gray-500">Hola, soy <span class="font-medium text-gray-700">Romario Sarmiento</span> y soy <span class="font-medium text-gray-700">Desarrollador Front end</span> con experiencia como <span class="font-medium text-gray-700">Desarrollador Web Full Stack</span>. </p>
+            <p class="mt-6 2xl:mt-8 text-sm md:text-base lg:text-lg 2xl:text-xl font-light text-justify text-gray-500">Hola, soy <span class="font-medium text-gray-700">Romario Sarmiento</span> y soy <span class="font-medium text-gray-700">Desarrollador Front end</span> con experiencia como <span class="font-medium text-gray-700">Desarrollador Web Full Stack</span>. </p>
             <p class="mt-3 md:mt-4 2xl:mt-4 text-sm md:text-base lg:text-base 2xl:text-xl font-light text-justify text-gray-500">
                 Bachiller en Ingeniería de Sistemas e Informática de la Universidad Nacional de Moquegua, con experiencia trabajando con equipos de varias partes del mundo.<br>
             </p>
@@ -52,6 +52,6 @@ export default {
         return {
             experience: experience
         }
-    },
+    }
 }
 </script>
