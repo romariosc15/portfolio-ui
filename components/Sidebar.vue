@@ -2,7 +2,7 @@
     <div class="my-shadow h-screen flex flex-col px-6 py-8 space-y-2">
         <div>
             <h3 class="text-3xl 2xl:text-4xl font-extrabold">Portafolio</h3>
-            <h5 class="text-sm 2xl:text-md font-normal mb-4">Experiencia y Proyectos</h5>
+            <h5 class="text-sm 2xl:text-md font-normal mb-4 ml-0.5">Experiencia y Proyectos</h5>
         </div>
         <nuxt-link :to="{path: '', hash: '#home'}" v-on:click="scrollTo('home')">
             <div :class="getClasses('#home') + 'flex flex-row items-center px-5 py-3 hover:bg-gray-100 rounded-md transition-colors duration-300'">
