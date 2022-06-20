@@ -30,10 +30,10 @@
                         <p class="font-light text-sm md:text-base lg:text-base 2xl:text-lg text-gray-600">Desarrollado con React y Redux.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/web.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/web.png" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-ui" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/github.png" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -43,13 +43,13 @@
                         <p class="font-light text-sm md:text-base lg:text-base 2xl:text-lg text-gray-600">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/web.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/web.png" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/github.png" />
                             </a>
                             <a target="_blank" href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <SvgPostman :classes="'fill-black'" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/postman.png" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -59,13 +59,13 @@
                         <p class="font-light text-sm md:text-base lg:text-base 2xl:text-lg text-gray-600">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/web.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/web.png" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/github.png" />
                             </a>
                             <a target="_blank" href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <SvgPostman :classes="'fill-black'" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/postman.png" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -75,13 +75,13 @@
                         <p class="font-light text-sm md:text-base lg:text-base 2xl:text-lg text-gray-600">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/web.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/web.png" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/github.png" />
                             </a>
                             <a target="_blank" href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <SvgPostman :classes="'fill-black'" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/postman.png" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -91,13 +91,13 @@
                         <p class="font-light text-sm md:text-base lg:text-base 2xl:text-lg text-gray-600">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/web.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/web.png" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <img class="w-8 h-8" src="~/assets/img/social-medias/github.png" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/github.png" />
                             </a>
                             <a target="_blank" href="https://www.postman.com" class="inline-block text-gray-900 hover:text-gray-400 transition-colors duration-400">
-                                <SvgPostman :classes="'fill-black'" />
+                                <img class="w-6 lg:w-7 xl:w-8 h-6 lg:h-7 xl:h-8" src="~/assets/img/social-medias/postman.png" />
                             </a>
                         </div>
                     </swiper-slide>
