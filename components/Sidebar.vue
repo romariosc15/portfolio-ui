@@ -29,7 +29,7 @@
             </div>
         </nuxt-link>
         <div class="mt-auto">
-            <FormSwitch />
+            <FormSwitch :darkMode="darkMode" @switch-dark-mode="switchDarkMode" />
         </div>
     </div>
 </template>
@@ -60,6 +60,9 @@ export default {
             this.currentHash = `#${id}`;
             this.currentPath = this.currentHash;
             document.getElementById(id).scrollIntoView();
+        },
+        switchDarkMode(){
+            this.darkMode = !this.darkMode;
         }
     }
 }

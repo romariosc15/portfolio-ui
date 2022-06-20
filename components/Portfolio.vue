@@ -5,7 +5,7 @@
             <p class="mt-6 2xl:mt-8 text-sm md:text-base lg:text-lg 2xl:text-xl font-light text-justify text-gray-600">En esta sección podrás encontrar los proyectos que he desarrollado para demostrar mis habilidades como desarrollador web.</p>
             <div class="mt-6 2xl:mt-12 cursor-grab">
                 <swiper
-                    :modules="swiper_modules"
+                    :modules="swiperModules"
                     :slides-per-view="1"
                     :space-between="50"
                     :pagination="{ clickable: true }"
@@ -117,7 +117,7 @@ export default {
         SwiperSlide,
     },
     props: {
-        swiper_modules: Object
+        swiperModules: Object
     }
 }
 </script>

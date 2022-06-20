@@ -9,16 +9,14 @@
             </div>
             <Home />
             <About />
-            <Portfolio :swiper_modules="modules" />
+            <Portfolio :swiper-modules="modules" />
             <Contact />
         </div>
     </div>
     
 </template>
 <script>
-    // import Swiper core and required modules
     import { Pagination } from 'swiper';
-    // Import Swiper styles
     import 'swiper/css';
     import 'swiper/css/pagination';
     export default {
@@ -42,8 +40,6 @@
                 let aboutHeight = document.getElementById('about').offsetHeight;
                 let portfolioHeight = document.getElementById('portfolio').offsetHeight;
                 let contactHeight = document.getElementById('contact').offsetHeight;
-                //console.log(scrollTop, (homeHeight/2), (homeHeight + aboutHeight/2), (homeHeight + aboutHeight + portfolioHeight/2) - (contactHeight/4));
-                //let h = window.innerHeight;
                 if (scrollTop < (homeHeight/2)){
                     this.currentPath = '#home';
                 }else if(scrollTop < (homeHeight + aboutHeight/2)){
