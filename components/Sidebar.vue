@@ -7,25 +7,25 @@
         <nuxt-link class="mb-2" :to="{path: '', hash: '#home'}" v-on:click="scrollTo('home')">
             <div :class="getClasses('#home') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
                 <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-house" />
-                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Inicio </p>
+                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Inicio D</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#about'}" v-on:click="scrollTo('about')">
             <div :class="getClasses('#about') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
                 <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-user" />
-                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Sobre mi </p>
+                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Sobre mi C</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#portfolio'}" v-on:click="scrollTo('portfolio')">
             <div :class="getClasses('#portfolio') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
                 <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-folder" />
-                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Portafolio </p>
+                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Portafolio B </p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#contact'}" v-on:click="scrollTo('contact')">
             <div :class="getClasses('#contact') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
                 <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-phone" />
-                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Contacto </p>
+                <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Contacto A</p>
             </div>
         </nuxt-link>
         <div class="mt-auto">
