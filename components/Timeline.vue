@@ -8,7 +8,7 @@
                     <p :class="'text-xs md:text-sm lg:text-sm 2xl:text-base' + (darkMode ? ' text-gray-700' : ' text-gray-500')"><span class="font-normal">{{value.position}}</span> ({{value.period}})</p>
                 </div>
             </div>
-            <p :class="'ml-4 md:ml-5 lg:ml-5 2xl:ml-6 pl-7 md:pl-8 lg:pl-8 2xl:pl-9 pb-3 mb-3 text-xs md:text-sm lg:text-base 2xl:text-lg border-l-2 text-justify' + (darkMode ? ' text-gray-800' : ' text-gray-600') + (index===(experience.length-1) ? ' border-transparent' : ' border-gray-200')" v-html="value.description"></p>
+            <p :class="'ml-4 md:ml-5 lg:ml-5 2xl:ml-6 pl-7 md:pl-8 lg:pl-8 2xl:pl-9 pb-3 mb-3 text-xs md:text-sm lg:text-base 2xl:text-lg border-l-2 text-justify' + (darkMode ? ' text-gray-800' : ' text-gray-600') + (index===(experience.length-1) ? ' border-transparent' : (darkMode ? ' border-gray-400' : ' border-gray-200'))" v-html="value.description"></p>
         </li>
     </ol>
 </template>
