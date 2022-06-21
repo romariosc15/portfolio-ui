@@ -20,12 +20,12 @@
             <p :class="'mt-6 2xl:mt-8 text-sm md:text-md lg:text-lg 2xl:text-xl font-light text-justify' + (darkMode ? ' text-gray-700' : ' text-gray-500')">Encuentrame también por redes sociales.</p>
             <div class="mt-4 xl:mt-6 2xl:mt-8 space-y-4 xl:space-y-6">
                 <div class="flex items-center">
-                    <FontAwesomeIcon class="2xl:text-3xl" icon="fa-brands fa-linkedin" />
-                    <a target="_blank" href="https://www.linkedin.com/in/romariosarmiento/" class="text-xs md:text-sm lg:text-md xl:text-lg inline-block ml-4 font-light hover:underline">Jaime Romario Sarmiento</a>
+                    <FontAwesomeIcon class="2xl:text-3xl basis-8 mr-4" icon="fa-brands fa-linkedin" />
+                    <a target="_blank" href="https://www.linkedin.com/in/romariosarmiento/" class="text-xs md:text-sm lg:text-md xl:text-lg inline-block font-light hover:underline">Jaime Romario Sarmiento</a>
                 </div>
                 <div class="flex items-center">
-                    <FontAwesomeIcon class="2xl:text-3xl" icon="fa-brands fa-github" />
-                    <a target="_blank" href="https://github.com/romariosc15" class="text-xs md:text-sm lg:text-md xl:text-lg inline-block ml-4 font-light hover:underline">romariosc15 (Romario Sarmiento)</a>
+                    <FontAwesomeIcon class="2xl:text-3xl basis-8 mr-4" icon="fa-brands fa-github" />
+                    <a target="_blank" href="https://github.com/romariosc15" class="text-xs md:text-sm lg:text-md xl:text-lg inline-block font-light hover:underline">romariosc15 (Romario Sarmiento)</a>
                 </div>
             </div>
         </div>
