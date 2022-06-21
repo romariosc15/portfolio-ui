@@ -3,7 +3,7 @@
         <Menu as="div" class="relative inline-block text-left text-xl">
             <div>
                 <MenuButton
-                :class="'inline-flex w-full justify-center rounded-md px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75' + (darkMode ? ' border border-gray-700' : ' border')"
+                :class="'inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75' + (darkMode ? ' border border-gray-400' : ' border')"
                 >
                     <FontAwesomeIcon :class="(darkMode ? ' text-gray-700' : ' text-gray-500')" icon="fa-solid fa-bars" />
                 </MenuButton>
