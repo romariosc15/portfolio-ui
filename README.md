@@ -9,6 +9,7 @@ He empleado las siguiente librerías y/o frameworks para el desarrollo de este p
 1. Nuxt 3
 2. Tailwind CSS
 3. Swiper.js
+4. Font Awesome
 
 ## Iniciar el repositorio
 
@@ -36,11 +37,10 @@ En caso de experimentar algún problema con el comando anterior, utilizar:
 npm install
 ```
 
-¡Listo!
-Para ejecutar el proyecto, utilizamos el comando:
+El penúltimo paso es ejecutar el proyecto, para ello utilizaremos el comando:
 
 ```bash
 npm run dev
 ```
 
-Y listo, puedes encontrar tu aplicación (por defecto) en: `http://localhost:3000`
+Y listo, puedes encontrar tu aplicación (por defecto) en: `http://localhost:3000`.

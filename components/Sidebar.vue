@@ -1,30 +1,30 @@
 <template>
-    <div :class="'my-shadow h-screen flex flex-col px-6 py-8' + (darkMode ? ' bg-black transition-colors duration-300' : '')">
+    <div :class="'my-shadow h-screen flex flex-col px-6 py-8 transition-colors duration-300' + (darkMode ? ' bg-black' : '')">
         <div :class="'mb-2' + (darkMode ? ' text-white' : '')">
             <h3 class="text-3xl 2xl:text-4xl font-extrabold">Portafolio</h3>
             <h5 class="text-sm 2xl:text-md font-normal mb-4 ml-0.5">Experiencia y Proyectos</h5>
         </div>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#home'}" v-on:click="scrollTo('home')">
             <div :class="getClasses('#home') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <HomeIcon :class="'h-5 w-5 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" />
+                <FontAwesomeIcon :class="'2xl:text-lg mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-house" />
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Inicio</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#about'}" v-on:click="scrollTo('about')">
             <div :class="getClasses('#about') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <UserIcon :class="'h-5 w-5 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" />
+                <FontAwesomeIcon :class="'2xl:text-lg mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-user" />
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Sobre mi</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#portfolio'}" v-on:click="scrollTo('portfolio')">
             <div :class="getClasses('#portfolio') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <FolderIcon :class="'h-5 w-5 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" />
+                <FontAwesomeIcon :class="'2xl:text-lg mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-folder" />
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Portafolio</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#contact'}" v-on:click="scrollTo('contact')">
             <div :class="getClasses('#contact') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <PhoneIcon :class="'h-5 w-5 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" />
+                <FontAwesomeIcon :class="'2xl:text-lg mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-phone" />
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Contacto</p>
             </div>
         </nuxt-link>
@@ -35,7 +35,6 @@
 </template>
 
 <script>
-import { HomeIcon, UserIcon, FolderIcon, PhoneIcon } from "@heroicons/vue/outline/index.js";
 
 export default {
     setup() {
@@ -45,12 +44,6 @@ export default {
             currentPath,
             darkMode
         }
-    },
-    components: {
-        HomeIcon,
-        UserIcon,
-        FolderIcon,
-        PhoneIcon
     },
     methods: {
         getClasses(hash){

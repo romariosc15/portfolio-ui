@@ -1,6 +1,5 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt3';
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
     head: {
         title: 'Romario Sarmiento - Sitio web personal',
@@ -25,5 +24,6 @@ export default defineNuxtConfig({
     css: [
         '@/assets/css/main.css',
         '/assets/css/switch.css',
+        '@fortawesome/fontawesome-svg-core/styles.css'
     ],
 })
