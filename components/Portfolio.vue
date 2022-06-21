@@ -30,10 +30,10 @@
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Desarrollado con React y Redux.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-solid fa-cloud" />
+                                <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-ui" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-brands fa-github" />
+                                <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -43,10 +43,10 @@
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-solid fa-cloud" />
+                                <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-brands fa-github" />
+                                <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -56,10 +56,10 @@
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-solid fa-cloud" />
+                                <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-brands fa-github" />
+                                <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -69,10 +69,10 @@
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-solid fa-cloud" />
+                                <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-brands fa-github" />
+                                <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
@@ -82,10 +82,10 @@
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Desarrollada con Node.js.</p>
                         <div class="mt-4 space-x-4 mb-12">
                             <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-solid fa-cloud" />
+                                <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
-                                <FontAwesomeIcon icon="fa-brands fa-github" />
+                                <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>

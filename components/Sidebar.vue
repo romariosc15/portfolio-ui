@@ -6,25 +6,33 @@
         </div>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#home'}" v-on:click="scrollTo('home')">
             <div :class="getClasses('#home') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-house" />
+                <div class="basis-8 mr-2">
+                    <font-awesome-icon :class="'2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-500')" :icon="['fas', 'house']" />
+                </div>
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Inicio</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#about'}" v-on:click="scrollTo('about')">
             <div :class="getClasses('#about') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-user" />
+                <div class="basis-8 mr-2">
+                    <font-awesome-icon :class="'2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-500')" :icon="['fas', 'user']" />
+                </div>
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Sobre mi</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#portfolio'}" v-on:click="scrollTo('portfolio')">
             <div :class="getClasses('#portfolio') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-folder" />
+                <div class="basis-8 mr-2">
+                    <font-awesome-icon :class="'2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-500')" :icon="['fas', 'folder']" />
+                </div>
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Portafolio</p>
             </div>
         </nuxt-link>
         <nuxt-link class="mb-2" :to="{path: '', hash: '#contact'}" v-on:click="scrollTo('contact')">
             <div :class="getClasses('#contact') + 'flex flex-row items-center px-5 py-3 rounded-md transition-colors duration-300' + (darkMode ? ' hover:bg-gray-600' : ' hover:bg-gray-100')">
-                <FontAwesomeIcon :class="'2xl:text-lg basis-8 mr-2' + (darkMode ? ' text-gray-100' : ' text-gray-500')" icon="fa-solid fa-phone" />
+                <div class="basis-8 mr-2">
+                    <font-awesome-icon :class="'2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-500')" :icon="['fas', 'phone']" />
+                </div>
                 <p :class="'font-medium text-sm' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Contacto</p>
             </div>
         </nuxt-link>

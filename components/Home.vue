@@ -6,13 +6,13 @@
         <p :class="'mt-1 sm:mt-0 mx-5 text-center text-sm md:text-base lg:text-base xl:text-lg 2xl:text-xl font-light' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Con capacidad para desarrollar software mantenible, funcional, seguro y documentado.</p>
         <div class="mt-6 2xl:mt-8 space-x-10">
             <a target="_blank" class="inline-block text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl" href="https://github.com/romariosc15">
-                <FontAwesomeIcon :class="(darkMode ? 'text-white' : '')" icon="fa-brands fa-github" />
+                <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fab', 'github']" />
             </a>
             <a target="_blank" class="inline-block text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl" href="https://www.linkedin.com/in/romariosarmiento/">
-                <FontAwesomeIcon :class="(darkMode ? 'text-white' : '')" icon="fa-brands fa-linkedin" />
+                <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fab', 'linkedin']" />
             </a>
             <a target="_blank" class="inline-block text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl" href="https://www.romariosarmiento.com/cv.pdf">
-                <FontAwesomeIcon :class="(darkMode ? 'text-white' : '')" icon="fa-regular fa-file-lines" />
+                <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['far', 'fa-file-lines']" />
             </a>
         </div>
     </div>
