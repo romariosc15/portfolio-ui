@@ -1,6 +1,6 @@
 # Portafolio
 
-En este repositorio se encuentra el código utilizado para el despliegue de mi [portafolio personal](https://www.romariosarmiento.com).
+En este repositorio se encuentra el código utilizado para el despliegue de mi [portafolio personal](https://www.romariosarmiento.com) a la plataforma de Netlify.
 
 ## Tecnologías utilizadas
 
