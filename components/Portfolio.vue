@@ -1,5 +1,5 @@
 <template>
-    <div id="portfolio" :class="'transition-colors duration-300' + (darkMode ? ' bg-gray-600' : ' bg-gray-50')">
+    <div id="portfolio" :class="'transition-colors duration-300 lg:pl-2' + (darkMode ? ' bg-gray-600' : ' bg-gray-50')">
         <div class="mx-6 md:mx-12 lg:mx-12 2xl:mx-20 pt-12 2xl:pt-24 col-span-5 pb-10 2xl:pb-24">
             <h1 :class="'text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-black' + (darkMode ? ' text-white' : '')">Portafolio</h1>
             <p :class="'mt-6 2xl:mt-8 text-sm md:text-base lg:text-lg 2xl:text-xl font-light text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">En esta sección podrás encontrar los proyectos que he desarrollado para demostrar mis habilidades como desarrollador web.</p>
@@ -25,7 +25,7 @@
                     }"
                 >
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/portfolio.png" />
+                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/portfolio.png" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Portafolio Personal</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollado con Nuxt 3. <br>
