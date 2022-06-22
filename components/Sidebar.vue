@@ -64,6 +64,7 @@ export default {
         },
         switched(){
             this.darkMode = !this.darkMode;
+            localStorage.setItem('darkMode', this.darkMode);
         }
     }
 }
