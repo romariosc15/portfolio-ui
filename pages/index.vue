@@ -1,7 +1,7 @@
 <template>
     <div :class="darkMode ? 'bg-black' : 'bg-white'">
         <Transition name="fade">
-            <div class="h-screen bg-slate-200" v-if="!loading">
+            <div :class="'h-screen bg-gray-600'" v-if="!loading">
                 <Loading />
             </div>
         </Transition>
