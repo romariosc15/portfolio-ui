@@ -70,8 +70,18 @@
         },
         head() {
             return {
-                title: "Romario Sarmiento - Portafolio",
+                title: "Romario Sarmiento - Frontend",
                 meta: [
+                    {
+                        hid: "apple-mobile-web-app-title",
+                        property: "application-name",
+                        content: "Romario Sarmiento - Portafolio",
+                    },
+                    {
+                        hid: "application-name",
+                        property: "application-name",
+                        content: "Romario Sarmiento - Portafolio",
+                    },
                     {
                         hid: 'description',
                         name: 'description',
@@ -80,7 +90,7 @@
                     {
                         hid: "og:title",
                         property: "og:title",
-                        content: "Romario Sarmiento",
+                        content: "Romario Sarmiento - Frontend",
                     },
                     {
                         hid: "og:description",
@@ -92,6 +102,26 @@
                         property: "og:image",
                         content: "~/assets/img/portfolio/portfolio.png",
                     },
+                    {
+                        hid: "og:type",
+                        property: "og:type",
+                        content: "website",
+                    },
+                    {
+                        hid: "og:site_name",
+                        property: "og:site_name",
+                        content: "Romario Sarmiento - Frontend",
+                    },
+                    {
+                        hid: "og:locale",
+                        property: "og:locale",
+                        content: "es_ES",
+                    },
+                    {
+                        hid: "og:url",
+                        property: "og:url",
+                        content: "https://www.romariosarmiento.com/",
+                    }
                 ]
             }
         }

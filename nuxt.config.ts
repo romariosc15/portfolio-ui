@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt';
 
 export default defineNuxtConfig({
     head: {
-        title: 'Romario Sarmiento - Portafolio',
+        title: 'Romario Sarmiento - Frontend',
         meta: [
           { charset: 'utf-8' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
