@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <Transition name="bounce">
+    <div :class="darkMode ? 'bg-black' : 'bg-white'">
+        <Transition name="fade">
             <div class="h-screen bg-slate-200" v-if="!loading">
                 <Loading />
             </div>
