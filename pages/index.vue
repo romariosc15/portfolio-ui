@@ -70,13 +70,28 @@
         },
         head() {
             return {
-                title: "Romario Sarmiento",
+                title: "Romario Sarmiento - Portafolio",
                 meta: [
                     {
-                        hid: 'Inicio',
-                        name: 'Inicio',
+                        hid: 'description',
+                        name: 'description',
                         content: 'Sitio web personal destinado a mostrar parte de mi trabajo y mis habilidades como desarrollador web.'
-                    }
+                    },
+                    {
+                        hid: "og:title",
+                        property: "og:title",
+                        content: "Romario Sarmiento",
+                    },
+                    {
+                        hid: "og:description",
+                        property: "og:description",
+                        content: "Sitio web personal destinado a mostrar parte de mi trabajo y mis habilidades como desarrollador web.",
+                    },
+                    {
+                        hid: "og:image",
+                        property: "og:image",
+                        content: "~/assets/img/portfolio/portfolio.png",
+                    },
                 ]
             }
         }
