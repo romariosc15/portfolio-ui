@@ -12,7 +12,7 @@
                 <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fab', 'linkedin']" />
             </a>
             <a target="_blank" class="inline-block text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl" href="https://www.romariosarmiento.com/cv.pdf">
-                <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['far', 'fa-file-lines']" />
+                <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fas', 'fa-file-arrow-down']" />
             </a>
         </div>
     </div>
