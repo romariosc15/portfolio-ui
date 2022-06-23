@@ -38,7 +38,7 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-2.png" />
+                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-2.png" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Tienda Virtual</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con React, Redux y Chakra UI. <br>
