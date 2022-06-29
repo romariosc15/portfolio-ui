@@ -75,12 +75,12 @@
                     {
                         hid: "apple-mobile-web-app-title",
                         property: "application-name",
-                        content: "Romario Sarmiento - Portafolio",
+                        content: "Jaime Romario Sarmiento - Portafolio",
                     },
                     {
                         hid: "application-name",
                         property: "application-name",
-                        content: "Romario Sarmiento - Portafolio",
+                        content: "Jaime Romario Sarmiento - Portafolio",
                     },
                     {
                         hid: 'description',
@@ -90,7 +90,7 @@
                     {
                         hid: "og:title",
                         property: "og:title",
-                        content: "Romario Sarmiento - Frontend",
+                        content: "Jaime Romario Sarmiento - Portafolio",
                     },
                     {
                         hid: "og:description",
@@ -110,7 +110,7 @@
                     {
                         hid: "og:site_name",
                         property: "og:site_name",
-                        content: "Romario Sarmiento - Frontend",
+                        content: "Jaime Romario Sarmiento - Portafolio",
                     },
                     {
                         hid: "og:locale",

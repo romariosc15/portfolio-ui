@@ -2,7 +2,7 @@ import { defineNuxtConfig } from 'nuxt';
 
 export default defineNuxtConfig({
     head: {
-        title: 'Romario Sarmiento - Frontend',
+        title: 'Jaime Romario Sarmiento - Frontend',
         meta: [
           { charset: 'utf-8' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     css: [
         '@/assets/css/main.css',
         '/assets/css/switch.css',
-        '/assets/css/loading.css',
+        '/assets/css/loader.css',
         '@fortawesome/fontawesome-svg-core/styles.css'
     ],
 })

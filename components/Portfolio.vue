@@ -25,7 +25,7 @@
                     }"
                 >
                     <swiper-slide>
-                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-1.png" />
+                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-1.png" alt="Recorte del proyecto Portafolio Personal" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Portafolio Personal</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollado con Nuxt 3. <br>
@@ -38,7 +38,7 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-2.png" />
+                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-2.png" alt="Recorte del proyecto de Tienda Virtual" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Tienda Virtual</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con React, Redux y Chakra UI. <br>
@@ -54,14 +54,14 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-3.jpg" />
-                        <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">TEST 3</p>
+                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-3.jpg" alt="Node JS - Imagen obtenida de Pexels" />
+                        <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Tienda Virtual API</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
-                            Desarrollada con Node.js. <br>
-                            Lorem ipsum.
+                            Desarrollada con Node.js y Express.<br>
+                            Integrada con el proyecto "Tienda virtual".
                         </p>
                         <div class="mt-4 space-x-4 mb-12">
-                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://store-api-beta.herokuapp.com/" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
                             <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
@@ -70,7 +70,7 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-4.jpg" />
+                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-4.jpg" alt="Software - Imagen obtenida de Unsplash" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">TEST 4</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con Node.js. <br>
@@ -86,7 +86,7 @@
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-5.jpg" />
+                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-5.jpg" alt="Software development - Imagen obtenida de Unsplash" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">TEST 5</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con Node.js. <br>

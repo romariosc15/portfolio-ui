@@ -17,7 +17,7 @@
                     <p :class="'font-light text-xs md:text-sm lg:text-sm 2xl:text-lg' + (darkMode ? ' text-gray-100' : '')">Ilo, Perú</p>
                 </div>
             </div>
-            <p :class="'mt-6 2xl:mt-8 text-sm md:text-md lg:text-lg 2xl:text-xl font-light text-justify' + (darkMode ? ' text-gray-700' : ' text-gray-500')">Encuentrame también por redes sociales.</p>
+            <p :class="'mt-6 2xl:mt-8 text-sm md:text-md lg:text-lg 2xl:text-xl font-light text-justify' + (darkMode ? ' text-gray-700' : ' text-gray-500')">Encuentrame también en las siguientes redes:</p>
             <div class="mt-4 xl:mt-6 2xl:mt-8 space-y-4 xl:space-y-6">
                 <div class="flex items-center">
                     <div class="flex items-center basis-6 lg:basis-7 xl:basis-8 mr-4">
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="hidden md:block md:col-span-2 lg:col-span-3 2xl:col-span-2 flex items-center justify-center md:pr-12 lg:pr-8 lg:pl-6 2xl:px-12 my-auto">
-            <img class="lg:w-full h-fit-content rounded-md" src="~/assets/img/contact/main.jpg" />
+            <img class="lg:w-full h-fit-content rounded-md" src="~/assets/img/contact/main.jpg" alt="Contacta a Romario Sarmiento - Imagen obtenida de Unsplash" />
         </div>
     </div>
 </template>

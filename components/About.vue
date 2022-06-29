@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="hidden xl:block xl:col-span-3 2xl:col-span-2 flex items-center justify-center pl-6 pr-8 2xl:px-12 my-auto">
-            <img class="w-full h-fit-content rounded-md" src="~/assets/img/about/main.jpg" />
+            <img class="w-full h-fit-content rounded-md" src="~/assets/img/about/main.jpg" alt="Imagen de Romario Sarmiento - Imagen obtenida de Unsplash" />
         </div>
     </div>
 </template>
