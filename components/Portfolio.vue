@@ -67,6 +67,9 @@
                             <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
+                            <a target="_blank" href="https://documenter.getpostman.com/view/5319131/UzJFwyje" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                                <font-awesome-icon :icon="['fas', 'book']" />
+                            </a>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
