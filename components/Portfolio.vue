@@ -7,7 +7,6 @@
                 <swiper
                     :modules="swiperModules"
                     :slides-per-view="1"
-                    :space-between="50"
                     :pagination="{ clickable: true }"
                     :breakpoints="{
                         '640': {
@@ -16,90 +15,90 @@
                         },
                         '768': {
                             slidesPerView: 2,
-                            spaceBetween: 40,
+                            spaceBetween: 25,
                         },
                         '1280': {
                             slidesPerView: 3,
-                            spaceBetween: 50,
+                            spaceBetween: 30,
                         },
                     }"
                 >
                     <swiper-slide>
-                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-1.png" alt="Recorte del proyecto Portafolio Personal" />
+                        <img class="object-cover object-left rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-1.png" alt="Recorte del proyecto Portafolio Personal" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Portafolio Personal</p>
-                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
+                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollado con Nuxt 3. <br>
-                            Es el sitio web en el que te encuentras actualmente.
+                            Es la página que estás viendo ahora mismo.
                         </p>
-                        <div class="mt-4 space-x-4 mb-12">
-                            <a target="_blank" href="https://github.com/romariosc15/portfolio-ui" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                        <div class="mt-4 space-x-6 mb-12">
+                            <a target="_blank" href="https://github.com/romariosc15/portfolio-ui" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover object-left rounded-md w-full h-72" src="~/assets/img/portfolio/project-2.png" alt="Recorte del proyecto de Tienda Virtual" />
+                        <img class="object-cover object-left rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-2.png" alt="Recorte del proyecto de Tienda Virtual" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Tienda Virtual</p>
-                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
+                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con React, Redux y Chakra UI. <br>
-                            Apoyado por el banco de imágenes de Unsplash.
+                            Imágenes obtenidas de Unsplash.
                         </p>
-                        <div class="mt-4 space-x-4 mb-12">
-                            <a target="_blank" href="https://store-ui-beta.vercel.app/" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                        <div class="mt-4 space-x-6 mb-12">
+                            <a target="_blank" href="https://store-ui-beta.vercel.app/" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-ui" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-ui" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-3.jpg" alt="Node JS - Imagen obtenida de Pexels" />
+                        <img class="object-cover rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-3.jpg" alt="Node JS - Imagen obtenida de Pexels" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Tienda Virtual API</p>
-                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
+                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con Node.js y Express.<br>
                             Integrada con el proyecto "Tienda virtual".
                         </p>
-                        <div class="mt-4 space-x-4 mb-12">
-                            <a target="_blank" href="https://store-api-beta.herokuapp.com/" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                        <div class="mt-4 space-x-6 mb-12">
+                            <a target="_blank" href="https://store-api-beta.herokuapp.com/" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
-                            <a target="_blank" href="https://documenter.getpostman.com/view/5319131/UzJFwyje" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://documenter.getpostman.com/view/5319131/UzJFwyje" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fas', 'book']" />
                             </a>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-4.jpg" alt="Software - Imagen obtenida de Unsplash" />
+                        <img class="object-cover rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-4.jpg" alt="Software - Imagen obtenida de Unsplash" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">TEST 4</p>
-                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
+                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con Node.js. <br>
                             Lorem ipsum.
                         </p>
-                        <div class="mt-4 space-x-4 mb-12">
-                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                        <div class="mt-4 space-x-6 mb-12">
+                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-72" src="~/assets/img/portfolio/project-5.jpg" alt="Software development - Imagen obtenida de Unsplash" />
+                        <img class="object-cover rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-5.jpg" alt="Software development - Imagen obtenida de Unsplash" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">TEST 5</p>
-                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
+                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con Node.js. <br>
                             Lorem ipsum.
                         </p>
-                        <div class="mt-4 space-x-4 mb-12">
-                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                        <div class="mt-4 space-x-6 mb-12">
+                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-2xl xl:text-3xl 2xl:text-4xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
