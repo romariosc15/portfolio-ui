@@ -23,6 +23,7 @@ const experience = [
     {
         company: 'Globant',
         image: 'globant-logo.png',
+        url: 'https://www.globant.com/',
         position: 'Web UI Developer',
         period: 'Nov. 2021 - Actualidad',
         description: 'Trabajo actualmente en la cuenta de TaxAct (USA), corrigiendo errores y agregando nueva funcionalidad en las aplicaciones desarrolladas con Nuxt, Express y Contentful CMS. <br> El manejo del flujo de trabajo lo realizamos mediante Azure TFS y el marco de trabajo de Scrum.'
@@ -30,12 +31,14 @@ const experience = [
     {
         company: 'Oktana',
         image: 'oktana-logo.png',
+        url: 'https://oktana.com/',
         position: 'Software Engineer',
         period: 'Sep. 2020 - Oct. 2021',
         description: 'Trabajé en el desarrollo de la aplicación: <a class="underline" href="https://lowtidebeta.herokuapp.com/" target="_blank" rel="noopener noreferrer">Lowtide</a>, tanto de su interfaz de usuario (desarrollada en Vue.js, Nuxt y Tailwind CSS), como de su API REST (construida con Node.js y Express). <br> Control de versiones de código con Git y GitHub. Equipo de trabajo multicultural.'
     },
     {
         company: 'Innovahora',
+        url: 'https://innovahora.com/',
         image: 'innovahora-logo.png',
         position: 'Full Stack Web Developer',
         period: 'Sep. 2019 - Ago. 2020',

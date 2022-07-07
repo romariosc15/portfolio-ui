@@ -5,13 +5,13 @@
         <p :class="'mt-4 md:mt-6 mx-5 text-center text-sm md:text-base lg:text-base xl:text-lg 2xl:text-xl font-light' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Desarrollador web con más de 3 años de experiencia trabajando con equipos angloparlantes.</p>
         <p :class="'mt-1 sm:mt-0 mx-5 text-center text-sm md:text-base lg:text-base xl:text-lg 2xl:text-xl font-light' + (darkMode ? ' text-gray-100' : ' text-gray-600')">Con capacidad para desarrollar software mantenible, funcional, seguro y documentado.</p>
         <div class="mt-6 2xl:mt-8 space-x-10">
-            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl" href="https://github.com/romariosc15">
+            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl hover:opacity-70 transition-opacity duration-300" href="https://github.com/romariosc15">
                 <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fab', 'github']" />
             </a>
-            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl" href="https://www.linkedin.com/in/romariosarmiento/">
+            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl hover:opacity-70 transition-opacity duration-300" href="https://www.linkedin.com/in/romariosarmiento/">
                 <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fab', 'linkedin']" />
             </a>
-            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl" href="https://www.romariosarmiento.com/cv.pdf">
+            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl hover:opacity-70 transition-opacity duration-300" href="https://www.romariosarmiento.com/cv.pdf">
                 <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fas', 'fa-file-arrow-down']" />
             </a>
         </div>

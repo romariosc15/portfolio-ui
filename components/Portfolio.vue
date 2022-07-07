@@ -31,7 +31,7 @@
                             Es la página que estás viendo ahora mismo.
                         </p>
                         <div class="mt-4 space-x-6 mb-12">
-                            <a target="_blank" href="https://github.com/romariosc15/portfolio-ui" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/portfolio-ui" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
@@ -44,10 +44,10 @@
                             Imágenes obtenidas de Unsplash.
                         </p>
                         <div class="mt-4 space-x-6 mb-12">
-                            <a target="_blank" href="https://store-ui-beta.vercel.app/" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://store-ui-beta.vercel.app/" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-ui" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-ui" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
@@ -60,13 +60,13 @@
                             Integrada con el proyecto "Tienda virtual".
                         </p>
                         <div class="mt-4 space-x-6 mb-12">
-                            <a target="_blank" href="https://store-api-beta.herokuapp.com/" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://store-api-beta.herokuapp.com/" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
-                            <a target="_blank" href="https://documenter.getpostman.com/view/5319131/UzJFwyje" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://documenter.getpostman.com/view/5319131/UzJFwyje" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fas', 'book']" />
                             </a>
                         </div>
@@ -79,10 +79,10 @@
                             Lorem ipsum.
                         </p>
                         <div class="mt-4 space-x-6 mb-12">
-                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
@@ -95,10 +95,10 @@
                             Lorem ipsum.
                         </p>
                         <div class="mt-4 space-x-6 mb-12">
-                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fas', 'cloud']" />
                             </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors duration-400 text-3xl xl:text-4xl 2xl:text-5xl' + (darkMode ? ' text-white hover:text-gray-300' : ' hover:text-gray-600')">
+                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>

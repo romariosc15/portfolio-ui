@@ -2,7 +2,9 @@
     <ol class="">
         <li v-for="(value, index) in experience" v-bind:key="value.company">
             <div class="flex flex-row">
-                <img :class="'w-8 md:w-10 lg:w-10 2xl:w-12 h-8 md:h-10 lg:h-10 2xl:h-12 object-cover rounded-full mb-2 lg:mb-2 2xl:mb-3 transition-colors duration-300' + (darkMode ? ' bg-white' : ' bg-gray-50')" :src="`${value.image}`" alt="">
+                <a class="hover:opacity-70 transition-opacity duration-300" :href="value.url" target="_blank" rel="noopener noreferrer">
+                    <img :class="'w-8 md:w-10 lg:w-10 2xl:w-12 h-8 md:h-10 lg:h-10 2xl:h-12 object-cover rounded-full mb-2 lg:mb-2 2xl:mb-3 transition-colors duration-300' + (darkMode ? ' bg-white' : ' bg-gray-50')" :src="`${value.image}`" alt="">
+                </a>
                 <div class="ml-3.5 md:ml-3.5 lg:ml-3.5 2xl:ml-4">
                     <p class="text-sm md:text-sm lg:text-sm 2xl:text-lg font-bold">{{value.company}}</p>
                     <p :class="'text-xs md:text-sm lg:text-sm 2xl:text-base' + (darkMode ? ' text-gray-700' : ' text-gray-500')"><span class="font-normal">{{value.position}}</span> ({{value.period}})</p>
