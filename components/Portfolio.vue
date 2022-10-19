@@ -24,11 +24,11 @@
                     }"
                 >
                     <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-4.jpg" alt="Software - Imagen obtenida de Unsplash" />
+                        <img class="object-cover object-left rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-application-wizard.png" alt="Software - Imagen obtenida de Unsplash" />
                         <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">Formularios de Aplicación</p>
                         <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
                             Desarrollada con Next.js. <br>
-                            Tailwind CSS y Jest (En Construcción).
+                            Tailwind CSS y Jest.
                         </p>
                         <div class="mt-4 space-x-6 mb-12">
                             <a target="_blank" href="https://application-wizard-ui.vercel.app/" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
@@ -84,22 +84,6 @@
                             </a>
                             <a target="_blank" href="https://documenter.getpostman.com/view/5319131/UzJFwyje" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
                                 <font-awesome-icon :icon="['fas', 'book']" />
-                            </a>
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <img class="object-cover rounded-md w-full h-56 xl:h-60 2xl:h-72" src="~/assets/img/portfolio/project-5.jpg" alt="Software development - Imagen obtenida de Unsplash" />
-                        <p :class="'mt-4 font-medium text-base md:text-lg lg:text-lg 2xl:text-xl' + (darkMode ? ' text-white' : '')">TEST 5</p>
-                        <p :class="'font-light text-sm md:text-base lg:text-base 2xl:text-lg text-justify' + (darkMode ? ' text-gray-100' : ' text-gray-600')">
-                            Desarrollada con Node.js. <br>
-                            Lorem ipsum.
-                        </p>
-                        <div class="mt-4 space-x-6 mb-12">
-                            <a target="_blank" href="https://store-api.romariosarmiento.com" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
-                                <font-awesome-icon :icon="['fas', 'cloud']" />
-                            </a>
-                            <a target="_blank" href="https://github.com/romariosc15/store-api" :class="'inline-block transition-colors hover:opacity-70 transition-opacity duration-300 text-3xl xl:text-4xl' + (darkMode ? ' text-white' : '')">
-                                <font-awesome-icon :icon="['fab', 'github']" />
                             </a>
                         </div>
                     </swiper-slide>
