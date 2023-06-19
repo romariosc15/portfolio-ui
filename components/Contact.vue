@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="hidden md:block md:col-span-2 lg:col-span-3 2xl:col-span-2 flex items-center justify-center md:pr-12 lg:pr-8 lg:pl-6 2xl:px-12 my-auto">
+        <div class="hidden md:flex md:col-span-2 lg:col-span-3 2xl:col-span-2 items-center justify-center md:pr-12 lg:pr-8 lg:pl-6 2xl:px-12 my-auto">
             <img class="lg:w-full h-fit-content rounded-md" src="~/assets/img/contact/main.jpg" alt="Contacta a Romario Sarmiento - Imagen obtenida de Unsplash" />
         </div>
     </div>

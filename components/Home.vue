@@ -11,7 +11,7 @@
             <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl hover:opacity-70 transition-opacity duration-300" href="https://www.linkedin.com/in/romariosarmiento/">
                 <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fab', 'linkedin']" />
             </a>
-            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl hover:opacity-70 transition-opacity duration-300" href="https://www.romariosarmiento.com/cv.pdf">
+            <a target="_blank" class="inline-block text-3xl lg:text-4xl 2xl:text-5xl hover:opacity-70 transition-opacity duration-300" href="/cv.pdf">
                 <font-awesome-icon :class="(darkMode ? 'text-white' : '')" :icon="['fas', 'fa-file-arrow-down']" />
             </a>
         </div>
